@@ -1,0 +1,31 @@
+{
+  "name": "simple-login-register-server",
+  "version": "0.0.1",
+  "description": "简易的登录注册服务器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CN-Aryz/simple-login-register-server.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mysql",
+    "javascript"
+  ],
+  "author": "Aryz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CN-Aryz/simple-login-register-server/issues"
+  },
+  "homepage": "https://github.com/CN-Aryz/simple-login-register-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "yaml": "^1.10.0"
+  }
+}
